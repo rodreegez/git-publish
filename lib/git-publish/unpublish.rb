@@ -8,10 +8,7 @@ class GitUnpublish
     origin(ARGV[0])
     remote_branch_name(ARGV[1])
     %x|git push #{origin} :#{remote_branch_name}|
-    puts %Q|
-Remote branch deleted.
-Run \`git branch -d #{@local_branch_name}\`
-to delete the branch locally|
+    puts %Q|\n  Run \`git branch -d #{@local_branch_name}\` to delete the branch locally\n |
   end
 
   def origin(origin=nil)
