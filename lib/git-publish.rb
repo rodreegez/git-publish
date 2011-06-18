@@ -1,5 +1,5 @@
-module Git
-  module Publish
-    # Your code goes here...
+class GitPublish
+  def run
+    p "BACON"
   end
 end
