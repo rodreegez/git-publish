@@ -1,5 +1,7 @@
 # Usage #
 
+## Publishing ##
+
     $ git co -b my-test-branch
     $ git publish
     => create a remote branch called my-test-branch
@@ -19,6 +21,10 @@
     $ git publish origin feature-36
     => publish my-test-branch on default "origin"
     and call it "feature-36"
+
+## Unpublishing ##
+
+Is pretty much as above, but subbing `publish` for `unpublish`.
 
 # Inspiration #
 
