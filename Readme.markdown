@@ -1,5 +1,9 @@
 # Usage #
 
+## Install ##
+
+    gem install git-publish
+
 ## Publishing ##
 
     $ git co -b my-test-branch
